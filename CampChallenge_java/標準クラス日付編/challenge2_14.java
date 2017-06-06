@@ -50,7 +50,9 @@ public class challenge2_14 {
      //A1、A2のうち大きい数値を取得
      long small=Math.min(A1, B1);
      
-     System.out.print((large-small)/1000);
+     long x=large-small;
+     
+     System.out.print(x);
       
       
      
