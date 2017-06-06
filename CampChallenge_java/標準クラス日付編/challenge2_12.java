@@ -5,6 +5,7 @@
  */
 package org.mypackage.java;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
@@ -16,11 +17,14 @@ import java.util.Date;
 public class challenge2_12 {
 
     public static void main(String[] args) {
-        //現在の日時で日付情報を作成
-        Date d = new Date();
-
-        System.out.print(d);
-
+       
+    SimpleDateFormat d2 =new SimpleDateFormat("yyyy年MM月dd日 HH時mm分ss秒");
+   Date d = new Date();
+    String q2 = d2.format(d);
+    System.out.println(q2);
+    
+    
+        
     }
 
 }
